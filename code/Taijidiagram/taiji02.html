@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>taiji</title>
+	<style type="text/css">
+		#taiji{
+			width: 200px;
+			height: 200px;
+			border: 1px solid black;
+			border-radius: 50%;
+			background: linear-gradient(to bottom, #ffffff 0%,#ffffff 50%,#000000 50%,#000000 100%);
+			position: relative;
+		}
+		#taiji > .one{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			background: #000;
+			position: absolute;
+			top: 50px;
+			left: 0;
+		}
+		#taiji > .two{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			background: #ffffff;
+			position: absolute;
+			top: 50px;
+			right: 0;
+		}
+		.one>.one-inner{
+			/*border: 1px solid red;*/
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			position: absolute;
+			top: 36px;
+			left: 30px;
+			background: #fff;
+		}
+		.two>.two-inner{
+			/*border: 1px solid red;*/
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			position: absolute;
+			top: 36px;
+			right: 30px;
+			background: #000;
+		}
+	</style>
+</head>
+<body>
+	<div id="taiji">
+		<div class="one">
+			<div class="one-inner"></div>
+		</div>
+		<div class="two">
+			<div class="two-inner"></div>
+		</div>
+	</div>
+	
+</body>
+</html>

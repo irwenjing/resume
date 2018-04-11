@@ -4,3 +4,4 @@
 3. [太极图](https://irwenjing.github.io/resume/code/Taijidiagram/taiji01.html) 2018年4月9日11:30:17
 4. [普通-太极](https://irwenjing.github.io/resume/code/Taijidiagram/taiji02.html)2018年4月10日 18:10:22
 5. [伪元素-太极](https://irwenjing.github.io/resume/code/Taijidiagram/taiji03.html) 2018年4月10日 18:10:25
+6. [太极-animation](https://irwenjing.github.io/resume/code/Taijidiagram/taiji04-animation.html) 2018年4月11日 19:12:39

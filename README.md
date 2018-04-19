@@ -6,3 +6,4 @@
 5. [伪元素-太极](https://irwenjing.github.io/resume/code/Taijidiagram/taiji03.html) 2018年4月10日 18:10:25
 6. [太极-animation](https://irwenjing.github.io/resume/code/Taijidiagram/taiji04-animation.html) 2018年4月11日 19:12:39
 7. [制作按钮](https://irwenjing.github.io/resume/code/bg-img/button/button.html) 2018年4月12日 21:58:33
+8. [技能条](https://irwenjing.github.io/resume/code/skill/skill.html) 2018年4月19日 21点17分

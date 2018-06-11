@@ -69,10 +69,29 @@ ul,ol{
 	padding-top: 5px;
 	padding-bottom: 5px;
 	display: block;   /*a标签的高度高出了li标签的高度,因此给a标签添加一个display:block;解决这一漏洞.这样li就可以包裹住a标签了。*/
+	position: relative;
 }
-.topNavBar nav>ul>li>a:hover{
-	border-bottom: 3px solid #e06567;
+.topNavBar nav > ul > li > a:hover::after{
+	/*border-bottom: 3px solid #e06567;*/
+	content: '';
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background: #e06567;
+	height: 3px;
+	animation: menuSlide 0.3s;
 }
+@keyframes menuSlide{
+	0%{
+		width: 0;
+	}
+	100%{
+		width: 100%;
+	}
+}
+
 .topNavBar a{
 	float: left;
 }
